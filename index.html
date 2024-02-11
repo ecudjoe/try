@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AKWABENGKROM DA WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        img{
+
+            max-width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">   <div class="wrapper">
+       <img src="./images/pic.jpg"><img src="./images/pic.jpg"><img src="./images/sir.jpg"><img src="./images/event.jpg"><img src="./images/four.jpg"><img src="./images/eig.jpg"><img src="./images/ver.jpg"><img src="./images/sch.jpg"> 
+        
+
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0000ff;
+            color: #ffff00;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        main {
+            text-align: center;
+            padding: 2em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 2px;
+            text-align: left;
+        }
+
+        .table-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .table-column {
+            flex: 1;
+            margin: 0 1em;
+        }
+
+        #dashboard {
+            background-color: mediumaquamarine;
+        }
+    </style>
+    <title>School Management System</title>
+</head>
+<body>
+    <header>
+        <h1>AKWABENGKROM DA SPORTS TEAM</h1>
+    </header>
+    <nav>
+        <button onclick="showDashboard()">DASHBOARD</button>
+        <button onclick="showFootball()">FOOTBALL</button>
+        <button onclick="showAthletics()">ATHLETICS</button>
+        <button onclick="showVolleyball()">VOLLEYBALL</button>
+    </nav>
+    <main id="dashboard">
+        <h2>WELCOME TO AKWABENGKROM D/A PRIMARY & JHS SPORTS DASHBOARD </h2>
+        <div style="background-color: mintcream; padding: 10px;">
+            <h2>FOOTBALL TEAM</h2>
+            <p>Total JHS Boys: 15 </p>
+            <p>Total Primary Boys 19</p>
+            <p>Total Girls: 18</p>
+        </div>
+        <div style="background-color: aqua; padding: 10px;">
+            <h2>VOLLEYBALL TEAM</h2>
+            <p>Total Boys: 8</p>
+            <p>Total Girls: 0</p>
+        </div>
+        <div style="background-color: ghostwhite; padding: 10px;">
+            <h2>ATLETICS TEAM</h2>
+            <p>Total Boys: 16</p>
+            <p>Total Girls: 16</p>
+        </div>
+    </main>
+
+    <main id="football" style="background-color: aqua; display: none;">
+        <h2>FOOTBALL TEAM</h2>
+        <div class="table-container">
+            <div class="table-column">
+                <table>
+                    <thead>
+
+    
+        
+                        <tr>
+                            <th bgcolor="aqua">JHS BOYS</th> <th bgcolor="aqua"> PRY.BOYS</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="background-color: whitesmoke;">HARISON</td> <td style="background-color: whitesmoke;">BENJAMIN</td> 
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">SAMMY</td> <td style="background-color: lightgreen;"> GOLDEN</td> 
+                        </tr>
+                        <tr>
+                            <td>TAWIAH</td> <td>AMBOALA</td>
+                            </tr>
+                        <tr>
+                            <td style="background-color: whitesmoke;">ADINKRA</td> <td style="background-color: whitesmoke;">SANTURO </td> 
+                            <tr>
+                            <td style="background-color: lightgreen;">COLLINS</td> <td style="background-color: lightgreen;">GRUPOUR</td> 
+                        </tr>
+                        <tr>
+                            <td>ALI</td> <td>DERICK</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: whitesmoke;">ALYOREGE</td>  <td style="background-color: whitesmoke;">SAMBA</td>   
+                            </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">DAVIS</td>   <td style="background-color: lightgreen;">FRANCIS</td>   
+                        </tr>
+                        </tr>
+                        <td> KINGSFORD</td> <td>AZIZ</td>
+                        <tr>
+                            <td style="background-color: whitesmoke;">KWASI</td> <td style="background-color: whitesmoke;">OWUSU </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">ELVIS</td> <td style="background-color: lightgreen;">ACKAH </td>
+                        </tr>
+                        <tr>
+                            <td>MINTAH</td> <td>ABRAHAM</td>
+                            </tr>
+                        <tr>
+                             <td style="background-color: whitesmoke;">KYEREMEH </td> <td style="background-color: whitesmoke;">DENIS </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;"> MESHACK</td> <td style="background-color: lightgreen;">PATRICK</td>
+                            
+                            </tr>
+                        <tr>
+                              <td> RABIU</td> <td>MATHEW</td>
+                          <tr>
+                              
+                          </tr>
+                          </tr>
+                        <tr>
+                            <td style="background-color: whitesmoke;"> KYEREMEH</td>  <td style="background-color: whitesmoke;">NELSON</td>   
+                            </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">GRUPOUR</td>   <td style="background-color: lightgreen;">MESHACK</td>   
+                        </tr>
+                        </tr>
+                        <td> KINGSFORD</td> <td>AZIZ</td>
+                        <tr>
+                            <td style="background-color: whitesmoke;"></td> <td style="background-color: whitesmoke;">OWUSU </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;"></td> <td style="background-color: lightgreen;">YEMENE </td>
+                        </tr>
+                        <tr>
+                            <td></td> <td>OTOO</td>
+                            </tr>
+                        <tr>
+                             <td style="background-color: whitesmoke;">KYEREMEH </td> <td style="background-color: whitesmoke;">DENIS </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;"> MESHACK</td> <td style="background-color: lightgreen;">PATRICK</td>
+                            
+                            </tr>
+                        <tr>
+                              <td style="background-color: whitesmoke;"></td> <td style="background-color: whitesmoke;">BLESSING</td>
+                          <tr>
+                              
+                          </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th bgcolor="aqua"> JHS GIRLS</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td  style="background-color: whitesmoke;">SAHARA</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">LORDINA</td>
+                        </tr>
+                        <tr>
+                            <td  style="background-color: whitesmoke;">ABIGAIRL</td>
+                        </tr>
+                        <tr>
+                            <td>ELLEN</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">CECILIA</td> 
+                        </tr>
+                        <tr>
+                            <td  style="background-color: whitesmoke;">FATIMA</td>  
+                        </tr>
+                        <tr>
+                            <td>NIBEYEH</td> 
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">LAMISI</td>
+                        </tr>
+                        <tr>
+                            <td  style="background-color: whitesmoke;">PRECIOUS</td>
+                        </tr>
+                        <tr>
+                            <td>SERWAA</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">ESTHER</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                         </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">UNIFRED</td>
+                        </tr>
+                        <tr>
+                            <td  style="background-color: whitesmoke;">DORIS</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: whitesmoke;">PATIENCE</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">REBECCA</td>
+                        </tr>
+                        <tr>
+                            </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">PRISCILA</td>
+                        </tr>
+                        <tr>
+                             </tr>
+                        <tr>
+                            <td style="background-color: whitesmoke;">AKOM PRECIOUS</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">AGARTHER</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <main id="athletics" style="background-color: yellowgreen; display: none;">
+        <h2>ATHLETICS TEAM</h2>
+        <div class="table-container">
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="background-color: whitesmoke;">100M</th> <th style="background-color: whitesmoke;">200M</th> 
+                            <th style="background-color: whitesmoke;">400M</th> <th style="background-color: whitesmoke;">800M</th>
+                        BOYS</tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: aqua" >COLLINS</td><td style="background-color: aqua" >KINGSFORD</td><td style="background-color: aqua" >DAVIS</td><td style="background-color: aqua" >TAWIAH</td>
+                        </tr>
+                        <tr>
+                            <td>DAVIS</td><td>COLLINS</td><td>GABRIEL</td><td>COLLINS</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">ABRAHAM</td><td style="background-color: lightgreen;">HARISON</td><td style="background-color: lightgreen;">ELVIS</td><td style="background-color: lightgreen;">ALNYOREGE</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>GABRIEL</td><td>SAMMY</td><td>COLLINS</td><td>KINGSFORD</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-column">
+                <table>
+                    <thead> 
+                        <tr>
+                            <th style="background-color: whitesmoke;">100M</th> <th style="background-color: whitesmoke;">200M</th> 
+                            <th style="background-color: whitesmoke;">400M</<th> <th style="background-color: whitesmoke;">800M</th>
+                        </tr>
+                        </tr>
+                        GIRLS
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PRECIOUS</td><td>SAHARA</td><td>ANABEL</td><td>DORIS</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: aqua" >ABIGAIL</td><td style="background-color: aqua" >SERWAA</td><td style="background-color: aqua" >PORTIA</td><td style="background-color: aqua" >SELINA</td>
+                        </tr>
+                        <tr>
+                            <td>UNIFRED</td><td>PRECIOUS</td><td>PORDAA</td><td>REBCCA</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightgreen;">A.PRECIOUS</td><td style="background-color: lightgreen;">CECILIA</td><td style="background-color: lightgreen;">PATIENCE</td><td style="background-color: lightgreen;">AGARTHERS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <main id="volleyball" style="background-color: darkolivegreen; display: none;">
+        <h2>VOLLEYBALL TEAM</h2>
+        <div class="table-container">
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="background-color: whitesmoke;">BOYS</th><th style="background-color: whitesmoke;">BOYS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: lightgreen;">COLLINS</td> <td style="background-color: lightgreen;">GABRIEL</td>
+                        </tr>
+                        <tr>
+                            <td >ABRAHAM</td> <td>TONTOH</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: aqua;">DERICK</td> <td style="background-color: aqua;">HARISON</td>
+                        </tr>
+
+                        </tr>
+                        <tr>
+                            <td>BENJAMIN</td> <td>DAVIS</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="background-color: whitesmoke;"></th><th style="background-color: whitesmoke;">GIRLS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: lightgreen;">A</td> <td style="background-color: lightgreen;">B</td>
+                        </tr>
+                        <tr>
+                            <td >A</td> <td>B</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: aqua;">A</td> <td style="background-color: aqua;">B</td>
+                        </tr>
+
+                        </tr>
+                        <tr>
+                            <td>A</td> <td>B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function showDashboard() {
+            hideAll();
+            document.getElementById('dashboard').style.display = 'block';
+        }
+
+        function showFootball() {
+            hideAll();
+            document.getElementById('football').style.display = 'block';
+        }
+
+        function showAthletics() {
+            hideAll();
+            document.getElementById('athletics').style.display = 'block';
+        }
+
+        function showVolleyball() {
+            hideAll();
+            document.getElementById('volleyball').style.display = 'block';
+        }
+
+        function hideAll() {
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('football').style.display = 'none';
+            document.getElementById('athletics').style.display = 'none';
+            document.getElementById('volleyball').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
